@@ -152,7 +152,7 @@ function signUp() {
             success.style.display = "block";
         }
         setTimeout(() => {
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }, 500);
     }
 }
@@ -160,6 +160,6 @@ function signUp() {
 function logOut() {
     resetMessages();
     setTimeout(() => {
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }, 500);
 }
