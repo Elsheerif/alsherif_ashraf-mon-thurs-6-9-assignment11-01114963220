@@ -1,0 +1,63 @@
+body {
+    background-color: #24353F;
+}
+
+h1 {
+    color: #17A2B8;
+}
+
+.card {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: transparent;
+
+}
+
+.email {
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 3px;
+    color: white;
+
+
+}
+
+.password {
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 3px;
+    color: white;
+
+
+}
+
+.name {
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 3px;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    color: #17A2B8;
+    border: solid #17A2B8 1px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #17A2B8;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#sign {
+    color: white;
+    text-decoration: none;
+}
+
+#sign:hover {
+    text-decoration: underline;
+}
