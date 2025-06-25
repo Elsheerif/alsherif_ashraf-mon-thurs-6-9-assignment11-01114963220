@@ -1,4 +1,4 @@
-// Select input and feedback elements
+
 const useremail = document.getElementById('email');
 const userpassword = document.getElementById('password');
 const username = document.getElementById('name');
@@ -11,7 +11,7 @@ const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const regexPassword = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d!@#$%^&*]{6,16}$/;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Attach submit event to login form
+
     const loginForm = document.getElementById('loginForm');
     if (loginForm) {
         loginForm.addEventListener('submit', function(event) {
@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
             login();
         });
     }
-    // Attach submit event to signup form
     const signupForm = document.getElementById('signupForm');
     if (signupForm) {
         signupForm.addEventListener('submit', function(event) {
@@ -27,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             signUp();
         });
     }
-    // Attach click event to logout button if present
+
     const logoutBtn = document.getElementById('logout');
     if (logoutBtn) {
         logoutBtn.addEventListener('click', logOut);
